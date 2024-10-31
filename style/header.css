@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--header-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#nome {
+  font: var(--text-header-one);
+}
+
+#desenvolvedor {
+  font: var(--text-md);
+}
+
+.nav {
+  font: var(--text-md);
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+span#atual {
+  color: var(--color-link-atual);
+}

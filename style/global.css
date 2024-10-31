@@ -16,16 +16,18 @@
   --bg-card-sobremim: #5091AC;
   --bg-card-minhafoto: #FFFFFF;
   --color-linkhover: #43A0D4;
+  --color-link-out: #000000;
+  --color-link-atual: #43A0D4;
   --color-line: #5091AC;
 
   /* Variáveis de Fontes */
   --font-family-principal: "Inria Sans", sans-serif;
   --font-family-secondary: "Inter", sans-serif;
   --text-sm: normal 24px/150% var(--font-family-principal);
-  --text-md: normal 28px/150% var(--font-family-principal);
+  --text-md: normal 30px/150% var(--font-family-principal);
   --text-lg: bold 30px/100% var(--font-family-principal);
   --text-header-one: bold 40px/150% var(--font-family-secondary); 
-  --text-header-sobremim: bold 40px/150% var(--font-family-principal);
+  --text-header-sobremim: bold 40px/150% var(--font-family-principal);    
 }
 
 body {
@@ -36,6 +38,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--color-link-out);
 }
 
 a:hover {
@@ -44,6 +47,7 @@ a:hover {
 
 .container {
   margin-inline: auto;
-  padding-inline: 48px;
+  margin-top: 30px;
+  padding-inline: 54px;
 }
 
