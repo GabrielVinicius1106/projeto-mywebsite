@@ -23,7 +23,7 @@
   /* Variáveis de Fontes */
   --font-family-principal: "Inria Sans", sans-serif;
   --font-family-secondary: "Inter", sans-serif;
-  --text-sm: normal 24px/150% var(--font-family-principal);
+  --text-sm: 300 24px/150% var(--font-family-principal);
   --text-md: normal 30px/150% var(--font-family-principal);
   --text-lg: bold 30px/100% var(--font-family-principal);
   --text-header-one: bold 40px/150% var(--font-family-secondary); 
@@ -35,6 +35,8 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
 }
+
+/* =================================== */
 
 a {
   text-decoration: none;
