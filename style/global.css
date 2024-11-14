@@ -15,6 +15,7 @@
   --bg-color: #D9D9D9;
   --bg-card-sobremim: #5091AC;
   --bg-card-minhafoto: #FFFFFF;
+  --bg-color-buttons: #B0B0B0;
   --color-linkhover: #43A0D4;
   --color-link-out: #000000;
   --color-link-atual: #43A0D4;
@@ -52,4 +53,3 @@ a:hover {
   margin-top: 30px;
   padding-inline: 54px;
 }
-

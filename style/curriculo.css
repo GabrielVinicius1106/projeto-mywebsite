@@ -1,0 +1,110 @@
+.curriculo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+
+  height: 650px;
+  width: 1000px;
+
+  background-color: var(--bg-card-sobremim);
+  border-radius: 16px;
+}
+
+#acessar-projetos {
+  position: relative;
+  top: -60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bg-color);
+
+  width: 400px;
+  height: 400px;
+
+  p {
+    position: relative;
+    top: -60px;
+  }
+
+  input {
+    font: var(--text-lg);
+
+    height: 58px;
+    width: 180px;
+
+    border-radius: 8px;
+
+    border: 2px solid black;
+
+    &:hover {
+      background-color: var(--bg-color-buttons);
+    }
+
+  }
+
+}
+
+#redes-sociais {
+  position: relative;
+  top: -60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bg-color);
+
+  width: 400px;
+  height: 400px;
+
+  p {
+    position: relative;
+    top: -44px;
+  }
+
+  a {
+    display: flex;
+    justify-content: left;
+    padding-left: 16px;
+    gap: 12px;
+
+    font: var(--text-md);
+    border-radius: 8px;
+    border: 2px solid black;
+
+    width: 180px;
+
+    &:hover {
+      color: black;
+      background-color: var(--bg-color-buttons);
+    }
+  }
+
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#redes-sociais, #acessar-projetos {
+  padding: 86px;
+
+  border-radius: 12px;
+}
+
+#box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  justify-items: center;
+}
+
+
