@@ -28,7 +28,8 @@
   --text-md: normal 30px/150% var(--font-family-principal);
   --text-lg: bold 30px/100% var(--font-family-principal);
   --text-header-one: bold 40px/150% var(--font-family-secondary); 
-  --text-header-sobremim: bold 40px/150% var(--font-family-principal);    
+  --text-header-sobremim: bold 40px/150% var(--font-family-principal); 
+  --text-tecnologies: bold 20px/150% var(--font-family-principal);   
 }
 
 body {
