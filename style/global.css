@@ -50,6 +50,11 @@ a:hover {
 }
 
 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
   margin-inline: auto;
   margin-top: 30px;
   padding-inline: 54px;

@@ -1,9 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .title {
   color: var(--header-color);
   display: flex;
@@ -30,3 +24,10 @@
 span#atual {
   color: var(--color-link-atual);
 }
+
+.sticky {
+  position: sticky;
+  top: 0px;
+
+  background-color: var(--bg-color);
+ } 
