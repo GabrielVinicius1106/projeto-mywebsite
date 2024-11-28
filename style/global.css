@@ -24,6 +24,7 @@
   /* Variáveis de Fontes */
   --font-family-principal: "Inria Sans", sans-serif;
   --font-family-secondary: "Inter", sans-serif;
+  --text-pg: 400 24px/150% var(--font-family-principal);
   --text-sm: 300 24px/150% var(--font-family-principal);
   --text-md: normal 30px/150% var(--font-family-principal);
   --text-lg: bold 30px/100% var(--font-family-principal);
