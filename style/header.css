@@ -24,10 +24,3 @@
 span#atual {
   color: var(--color-link-atual);
 }
-
-.sticky {
-  position: sticky;
-  top: 0px;
-
-  background-color: var(--bg-color);
- } 
