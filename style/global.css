@@ -59,3 +59,9 @@ a:hover {
   margin-top: 30px;
   padding-inline: 54px;
 }
+
+.cards {
+  margin-inline: auto;
+  margin-top: 45%;
+  padding-inline: 54px;
+}
